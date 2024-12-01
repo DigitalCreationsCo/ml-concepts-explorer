@@ -528,7 +528,7 @@ export const mlConcepts: MLConcepts = {
       components: (
           <div className="space-y-4">
               <ul className="list-disc pl-6">
-                  <li><strong>Query:</strong> What we're looking for</li>
+                  <li><strong>Query:</strong>{` What we're looking for`}</li>
                   <li><strong>Key:</strong> What we match against</li>
                   <li><strong>Value:</strong> What we extract information from</li>
                   <li><strong>Attention Weights:</strong> Computed importance scores</li>
@@ -564,7 +564,7 @@ export const mlConcepts: MLConcepts = {
                   <div className={`transition-all duration-500 ${
                       step === 0 ? 'scale-100' : 'scale-0'
                   }`}>
-                      Query: What we're looking for
+                      {`Query: What we're looking for`}
                   </div>
                   <div className={`transition-all duration-500 ${
                       step === 1 ? 'scale-100' : 'scale-0'
